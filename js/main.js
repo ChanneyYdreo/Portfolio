@@ -159,18 +159,6 @@
       backDelay: 2000,
     });
   }
-  const aboutTy = select(".aboutTy");
-  if (typed) {
-    let typed_strings = aboutTy.getAttribute("data-typed-items");
-    typed_strings = typed_strings.split(",");
-    new Typed(".aboutTy", {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 60,
-      backSpeed: 20,
-      backDelay: 2000,
-    });
-  }
 
   /**
    * Skills animation
